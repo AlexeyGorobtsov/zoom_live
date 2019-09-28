@@ -37,7 +37,8 @@ section.content {
     flex: 1184px 0 1;
     background: rgb(255, 255, 255);
     border-radius: 4px;
-    overflow: auto;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
 }
 
 .wrap-dashboards {
